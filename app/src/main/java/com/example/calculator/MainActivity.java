@@ -252,7 +252,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                             ops.pop();
                         }
-                        else if (tokens[i] == '+' || tokens[i] == '-' || tokens[i] == '*' || tokens[i] == '÷'|| tokens[i]=='%')
+                        else if (tokens[i] == '+' || tokens[i] == '-' || tokens[i] == 'x' || tokens[i] == '÷'|| tokens[i]=='%')
                         {
                             while (!ops.empty() && hasPrecedence(tokens[i], ops.peek())) values.push(applyOp(ops.pop(), values.pop(), values.pop()));
                             ops.push(tokens[i]);
@@ -278,7 +278,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 if (op2 == '(' || op2 == ')')
                     return false;
-                if ((op1 == '*' || op1 == '/') && (op2 == '+' || op2 == '-'))
+                if ((op1 == 'x' || op1 == '/') && (op2 == '+' || op2 == '-'))
                     return false;
                 else
                     return true;

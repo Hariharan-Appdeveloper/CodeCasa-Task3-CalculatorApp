@@ -11,7 +11,7 @@
         android:id="@+id/textbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/que"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="50dp"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -44,8 +44,8 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/grey"
                 android:text="AC"
@@ -54,8 +54,8 @@
                 android:id="@+id/allcl"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/grey"
                 android:text="C"
@@ -64,8 +64,8 @@
                 android:id="@+id/cl"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/teal_200"
                 android:text="%"
@@ -74,8 +74,8 @@
                 android:id="@+id/mod"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/teal_200"
                 android:text="÷"
@@ -90,8 +90,8 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="7"
@@ -100,8 +100,8 @@
                 android:id="@+id/seven"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="8"
@@ -110,8 +110,8 @@
                 android:id="@+id/eight"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="9"
@@ -120,8 +120,8 @@
                 android:id="@+id/nine"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/teal_200"
                 android:text="x"
@@ -136,8 +136,8 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="4"
@@ -146,8 +146,8 @@
                 android:id="@+id/four"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="5"
@@ -156,8 +156,8 @@
                 android:id="@+id/five"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="6"
@@ -166,8 +166,8 @@
                 android:id="@+id/six"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/teal_200"
                 android:text="-"
@@ -181,8 +181,8 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
         <Button
-            android:layout_width="@dimen/_71sdp"
-            android:layout_height="@dimen/_71sdp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="8dp"
             android:backgroundTint="@color/black"
             android:text="1"
@@ -191,8 +191,8 @@
             android:id="@+id/one"></Button>
 
         <Button
-            android:layout_width="@dimen/_71sdp"
-            android:layout_height="@dimen/_71sdp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="8dp"
             android:backgroundTint="@color/black"
             android:text="2"
@@ -201,8 +201,8 @@
             android:id="@+id/two"></Button>
 
         <Button
-            android:layout_width="@dimen/_71sdp"
-            android:layout_height="@dimen/_71sdp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="8dp"
             android:backgroundTint="@color/black"
             android:text="3"
@@ -211,8 +211,8 @@
             android:id="@+id/three"></Button>
 
         <Button
-            android:layout_width="@dimen/_71sdp"
-            android:layout_height="@dimen/_71sdp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="8dp"
             android:backgroundTint="@color/teal_200"
             android:text="+"
@@ -226,8 +226,8 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <Button
-                android:layout_width="@dimen/_148sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="0"
@@ -237,8 +237,8 @@
 
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/black"
                 android:text="."
@@ -247,8 +247,8 @@
                 android:id="@+id/dec"></Button>
 
             <Button
-                android:layout_width="@dimen/_71sdp"
-                android:layout_height="@dimen/_71sdp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:backgroundTint="@color/blue"
                 android:text="="
